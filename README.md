@@ -6,7 +6,12 @@ The li-on cells aren't the best choice for energy density, but they can fast cha
 <img src="Images/first-boot.jpg" width="400" />
 
 ## Status
-
+Currently on the to-do list to make this a complete build:
+* Sort out everything behind the display!
+* Add wiring for psu->gpio and config for auto-shutdown on low voltage
+* Wiring front facing button pannel for the lcd controls and system power switch.
+* Look into gpio controll to toggle power to some usb devices, e.g. to turn the pwnagotchi on and off as needed to save power.
+<img src="Images/wiring-20220209.jpg" width=200" />
 
 ## Keyboard Pivot Geometry
 One corner of each keyboard half moves up the center of the chassis on a straight path.  The other povot point follows some other path to acheive the desired total rotation, and we have some control over how it gets there by curving the path it follows.
