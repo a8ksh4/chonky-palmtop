@@ -3,6 +3,8 @@ It struck me to put this together when I saw how close in size the 7" touchscree
 
 The li-on cells aren't the best choice for energy density, but they can fast charge  - limited only by the gauge of the wire I connect tehm with, and if I change them later, therer's room in the battery box for a bunck of 18650 cells instead.
 
+<img src="Images/first-boot.jpg" width="400" />
+
 ## Status
 
 
@@ -11,10 +13,19 @@ One corner of each keyboard half moves up the center of the chassis on a straigh
 
 We can figure out the starting and ending points of the second pivot by projecting it's location closed and open, and then drawing a path between them.  See the yellow lines in the cad sketch below.  We use a path that first curves down to help us dip the keyboard around the hinges that hold the display.  
 
-<img src="Images/kb-flip-projection.png">
+<img src="Images/kb-flip-projection.png" width="400" />
 
 ## Power System
 
+
+## USB Wiring
+
+
+## Chassis Details
+<img src="Images/hinge1.jpg" width="100" />
+<img src="Images/hinge2.jpg" width="100" />
+<img src="Images/hinge3.jpg" width="100" />
+<img src="Images/battery-box0.jpg" width="100" />
 
 ## Materials List
 * Pi 4 (4gb minimum)
