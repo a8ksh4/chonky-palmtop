@@ -3,7 +3,7 @@ It struck me to put this together when I saw how close in size the 7" touchscree
 
 The li-on cells aren't the best choice for energy density, but they can fast charge  - limited only by the gauge of the wire I connect tehm with, and if I change them later, therer's room in the battery box for a bunck of 18650 cells instead.
 
-<img src="Images/first-boot.jpg" width="400" />
+<img src="Images/first-boot.jpg" width="400" /><img src="Images/side-closed.jpg" width="400" />
 
 ## Status
 Currently on the to-do list to make this a complete build:
