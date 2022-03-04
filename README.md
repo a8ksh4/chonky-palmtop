@@ -9,6 +9,7 @@ It turns out that this is a pretty functional setup.  The 7" display is okay as 
 <img src="Images/finished04.jpg" width="400" />
 <img src="Images/finished05.jpg" width="400" />
 <img src="Images/finished06.jpg" width="400" />
+<img src="Images/wiring01.jpg" width="400" />
 
 
 ## Status
@@ -31,17 +32,21 @@ We can figure out the starting and ending points of the second pivot by projecti
 
 First draft of the sliders:  
 
-<img src="Images/keyboard11.jpg" width="100" /><img src="Images/keyboard12.jpg" width="200" />
+<img src="Images/keyboard11.jpg" width="100" /><img src="Images/keyboard12.jpg" width="400" />
 
 
 ## Power System
 The retro psu seems to work well supplying power, but does not have a working low voltage cutoff, so even though it'll warn you that battery voltage is low, it's still up to you to turn it off and protect the battery.  Probaby some otehr low voltage protection should be used between the psu and battery.
 
-This build has two li-ion pouch cells wired in parallel, each separatly fused for 10a for short curcuit protection.  There's an XT60 connection on the side in case I want to rig up a fast-charge.  The li-on cells used here aren't the best choice for energy density, but they can fast charge  - limited only by the gauge of the wire I connect tehm with, and if I change them later, there's room in the battery box for a bunch of 18650 cells instead.
+This build has two li-ion pouch cells wired in parallel, each separatly fused for 10a for short curcuit protection.  There's an XT60 connection on the side in case I want to rig up a fast-charge.  The li-on cells used here aren't the best choice for energy density, but they can fast charge  - limited only by the gauge of the wire I connect tehm with, and if I change them later, there's room in the battery box for a bunch of 18650 cells instead.  
+
+<img src="Images/battery01.jpg" width="400" />
+<img src="Images/battery00.jpg" width="400" />
+<img src="Images/battery02.jpg" width="400" />
 
 There is a switch and a voltage button on the right side of the screen to turn it on and check the battery level:  
 
-<img src="Images/disp_buttons02.jpg" width="200" />
+<img src="Images/disp_buttons02.jpg" width="400" />
 
 ## USB Wiring
 There is a usb hub inside the lid that'r wired with ground, D+, D-, directly to the usb pins on one of the pi ports.  Posotive power comes directly from the psu.  The ground and data wires are bundled with heat shrink to keep them paralle and close so they have the correct impedance for the usb connection.  I tried with them loose and the connection didn't work.  
@@ -60,7 +65,11 @@ And another similar build:
 ## Chassis Details
 Wiring for the front facing ouchscreen controls:  
 
-<img src="Images/disp_buttons01.jpg" width="200" />
+<img src="Images/disp_buttons01.jpg" width="400" />
+
+Display Keeps the keyboard closed when folded:
+
+<img src="Images/lid_keyboard_corner.jpg" width="400" />
 
 Hinges and stuff:  
 
