@@ -58,6 +58,7 @@ And another similar build:
 <img src="Images/battery-box0.jpg" width="100" />
 
 ## Materials List
+* Printed parts - See the "Stl Files" derectory.
 * Pi 4 (4gb minimum)
 * Ampripper 3k PSU/Charger: https://www.tindie.com/products/kickstart_design/ampripper-3000-5v-3a-lipo-battery-charger/
 * Chonker spim08hp cells:https://batteryhookup.com/products/2x-spim08hp-3-7v-8ah-cells-with-threaded-insert
