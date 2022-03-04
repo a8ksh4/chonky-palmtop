@@ -40,7 +40,7 @@ This build has two li-ion pouch cells wired in parallel, each separatly fused fo
 
 There is a switch and a voltage button on the right side of the screen to turn it on and check the battery level:  
 
-<img src="Images/disp_buttons02" width="100" />
+<img src="Images/disp_buttons02.jpg" width="200" />
 
 ## USB Wiring
 There is a usb hub inside the lid that'r wired with ground, D+, D-, directly to the usb pins on one of the pi ports.  Posotive power comes directly from the psu.  The ground and data wires are bundled with heat shrink to keep them paralle and close so they have the correct impedance for the usb connection.  I tried with them loose and the connection didn't work.  
