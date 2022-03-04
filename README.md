@@ -57,6 +57,12 @@ And another similar build:
 
 
 ## Chassis Details
+Wiring for the front facing ouchscreen controls:  
+
+<img src="Images/disp_buttons01.jpg" width="200" />
+
+Hinges and stuff:  
+
 <img src="Images/hinge1.jpg" width="100" />
 <img src="Images/hinge2.jpg" width="100" />
 <img src="Images/hinge3.jpg" width="100" />
