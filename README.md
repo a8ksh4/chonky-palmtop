@@ -1,7 +1,7 @@
 # Chonky Palmtop
-It struck me to put this together when I saw how close in size the 7" touchscreen, battery cells, and crkbd folded vertically that I had sitting on my desk were.  
+It struck me to put this together when I saw how close in size the 7" touchscreen, battery cells, and crkbd folded vertically that I had sitting on my desk were.  And I I needed a build that was actually functional for normal computer stuff, so this seemed like a good idea.
 
-The li-on cells aren't the best choice for energy density, but they can fast charge  - limited only by the gauge of the wire I connect tehm with, and if I change them later, therer's room in the battery box for a bunch of 18650 cells instead.
+It turns out that this is a pretty functional setup.  The 7" display is okay as long as I fullscreen stuff.  Alt+F11 works with a lot of stuff so far.  I've been able to use onshape cad in firefox.  It's a little slow, but works as long as firefox doesn't have issues with gfx acceleration.  Console stuff and web browsing are  great!
 
 <img src="Images/finished01.jpg" width="400" />
 <img src="Images/finished02.jpg" width="400" />
@@ -13,6 +13,7 @@ The li-on cells aren't the best choice for energy density, but they can fast cha
 
 ## Status
 The current to-do list:
+* Figure out why gfx acceleration is broken for firefox!
 * Look into voltage warning wirining to gpio for the psu... not super useful since I don't have a way to actually switch the psu off.
 * Rework the lower left hinge bracket with integrated wire protection to match the lid.
 * Integrated pwnagotchi with power controls via gpio.  Sort of a separate project...  
@@ -36,7 +37,7 @@ First draft of the sliders:
 ## Power System
 The retro psu seems to work well supplying power, but does not have a working low voltage cutoff, so even though it'll warn you that battery voltage is low, it's still up to you to turn it off and protect the battery.  Probaby some otehr low voltage protection should be used between the psu and battery.
 
-This build has two li-ion pouch cells wired in parallel, each separatly fused for 10a for short curcuit protection.  There's an XT60 connection on the side in case I want to rig up a fast-charge.
+This build has two li-ion pouch cells wired in parallel, each separatly fused for 10a for short curcuit protection.  There's an XT60 connection on the side in case I want to rig up a fast-charge.  The li-on cells used here aren't the best choice for energy density, but they can fast charge  - limited only by the gauge of the wire I connect tehm with, and if I change them later, there's room in the battery box for a bunch of 18650 cells instead.
 
 There is a switch and a voltage button on the right side of the screen to turn it on and check the battery level:  
 
