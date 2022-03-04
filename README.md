@@ -1,30 +1,33 @@
 # Chonky Palmtop
 It struck me to put this together when I saw how close in size the 7" touchscreen, battery cells, and crkbd folded vertically that I had sitting on my desk were.  
 
-The li-on cells aren't the best choice for energy density, but they can fast charge  - limited only by the gauge of the wire I connect tehm with, and if I change them later, therer's room in the battery box for a bunck of 18650 cells instead.
+The li-on cells aren't the best choice for energy density, but they can fast charge  - limited only by the gauge of the wire I connect tehm with, and if I change them later, therer's room in the battery box for a bunch of 18650 cells instead.
 
 <img src="Images/first-boot.jpg" width="400" /><img src="Images/side-closed.jpg" width="400" />
 
 ## Status
-Currently on the to-do list to make this a complete build:
-* Sort out everything behind the display!
-* Add wiring for psu->gpio and config for auto-shutdown on low voltage
-* Wiring front facing button pannel for the lcd controls and system power switch.
-* Look into gpio controll to toggle power to some usb devices, e.g. to turn the pwnagotchi on and off as needed to save power.  
+The current to-do list:
+* Look into voltage warning wirining to gpio for the psu... not super useful since I don't have a way to actually switch the psu off.
+* Rework the lower left hinge bracket with integrated wire protection to match the lid.
+* Integrated pwnagotchi with power controls via gpio.  Sort of a separate project...  
 
 <img src="Images/wiring-20220209.jpg" width="200" />
 
 ## Keyboard Pivot Geometry
 One corner of each keyboard half moves up the center of the chassis on a straight path.  The other povot point follows some other path to acheive the desired total rotation, and we have some control over how it gets there by curving the path it follows.
 
-We can figure out the starting and ending points of the second pivot by projecting it's location closed and open, and then drawing a path between them.  See the yellow lines in the cad sketch below.  We use a path that first curves down to help us dip the keyboard around the hinges that hold the display.  
+We can figure out the starting and ending points of the second pivot by projecting it's location in the closed and open positions, and then drawing a path between them.  See the yellow lines in the cad sketch below.  We use a path that first curves down to help us dip the keyboard around the hinges that hold the display.  
 
 <img src="Images/kb-flip-projection.png" width="400" />
 
 ## Power System
+The retro psu seems to work well supplying power, but does not have a working low voltage cutoff, so even though it'll warn you that battery voltage is low, it's still up to you to turn it off and protect the battery.  Probaby some otehr low voltage protection should be used between the psu and battery.
+
+This build has two li-ion pouch cells wired in parallel, each separatly fused for 10a for short curcuit protection.  There's an XT60 connection on the side in case I want to rig up a fast-charge.
 
 
 ## USB Wiring
+There is a usb hub inside the lid that'r wired with ground, D+, D-, directly to the usb pins on one of the pi ports.  Posotive power comes directly from the psu.  The ground and data wires are bundled with heat shrink to keep them paralle and close so they have the correct impedance for the usb connection.  I tried with them loose and the connection didn't work.
 
 
 ## Chassis Details
