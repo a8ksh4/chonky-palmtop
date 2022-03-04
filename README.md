@@ -28,8 +28,9 @@ We can figure out the starting and ending points of the second pivot by projecti
 
 <img src="Images/kb-flip-projection.png" width="400" />
 
-First draft of the sliders:
-<img src="Images/keyboard11.jpg" width="200" /><img src="Images/keyboard12.jpg" width="200" />
+First draft of the sliders:  
+
+<img src="Images/keyboard11.jpg" width="100" /><img src="Images/keyboard12.jpg" width="200" />
 
 
 ## Power System
