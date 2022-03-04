@@ -19,7 +19,15 @@ The current to-do list:
 * Rework the lower left hinge bracket with integrated wire protection to match the lid.
 * Integrated pwnagotchi with power controls via gpio.  Sort of a separate project...  
 
-## Keyboard Pivot Geometry
+## Keyboard
+The keyboard is a Corne Classic with Miryoku Firmware.  It has mouse emulation that works surprisingly well when not using a usb mouse.  
+
+### Firmware
+Using the Miryoku Firmware found here: https://github.com/manna-harbour/miryoku  
+<img src="Images/miryoku-kle-cover.png"/>
+
+
+### Pivot Geometry
 One corner of each keyboard half moves up the center of the chassis on a straight path.  The other povot point follows some other path to acheive the desired total rotation, and we have some control over how it gets there by curving the path it follows.
 
 We can figure out the starting and ending points of the second pivot by projecting it's location in the closed and open positions, and then drawing a path between them.  See the yellow lines in the cad sketch below.  We use a path that first curves down to help us dip the keyboard around the hinges that hold the display.  
@@ -29,7 +37,6 @@ We can figure out the starting and ending points of the second pivot by projecti
 First draft of the sliders:  
 
 <img src="Images/keyboard11.jpg" width="100" /><img src="Images/keyboard12.jpg" width="400" />
-
 
 ## Power System
 The retro psu seems to work well supplying power, but does not have a working low voltage cutoff, so even though it'll warn you that battery voltage is low, it's still up to you to turn it off and protect the battery.  Probaby some otehr low voltage protection should be used between the psu and battery.
@@ -104,16 +111,8 @@ Hinges and stuff:
 * 6mm Clear Top Buttons: https://www.adafruit.com/product/4183
 * Switch: https://www.amazon.com/gp/product/B008CZIG3I/
 
-## Keyboard Firmware
-Using the Miryoku Firmware found here: https://github.com/manna-harbour/miryoku  
-<img src="Images/miryoku-kle-cover.png"/>
-
-
 ## Authors and acknowledgment
 Thanks to the Cyberdeck Cafe Discord and the Cyberdeck Reddit for loads of inrpiration and collaboration!
 
 ## License
 Creative Commons Share Alike
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
