@@ -25,9 +25,22 @@ The retro psu seems to work well supplying power, but does not have a working lo
 
 This build has two li-ion pouch cells wired in parallel, each separatly fused for 10a for short curcuit protection.  There's an XT60 connection on the side in case I want to rig up a fast-charge.
 
+There is a switch and a voltage button on the right side of the screen to turn it on and check the battery level:  
+
+<img src="Images/disb_buttons02" width="100" />
 
 ## USB Wiring
-There is a usb hub inside the lid that'r wired with ground, D+, D-, directly to the usb pins on one of the pi ports.  Posotive power comes directly from the psu.  The ground and data wires are bundled with heat shrink to keep them paralle and close so they have the correct impedance for the usb connection.  I tried with them loose and the connection didn't work.
+There is a usb hub inside the lid that'r wired with ground, D+, D-, directly to the usb pins on one of the pi ports.  Posotive power comes directly from the psu.  The ground and data wires are bundled with heat shrink to keep them paralle and close so they have the correct impedance for the usb connection.  I tried with them loose and the connection didn't work.  
+
+<img src="Images/usb01.jpg" width="100" />
+
+Before I added a ground wire and bundled them:  
+
+<img src="Images/usb02.jpg" width="100" />  
+
+And another similar build:  
+
+<img src="Images/usb03.jpg" width="100" />
 
 
 ## Chassis Details
