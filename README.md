@@ -3,7 +3,13 @@ It struck me to put this together when I saw how close in size the 7" touchscree
 
 The li-on cells aren't the best choice for energy density, but they can fast charge  - limited only by the gauge of the wire I connect tehm with, and if I change them later, therer's room in the battery box for a bunch of 18650 cells instead.
 
-<img src="Images/first-boot.jpg" width="400" /><img src="Images/side-closed.jpg" width="400" />
+<img src="Images/finished01.jpg" width="400" />
+<img src="Images/finished02.jpg" width="200" />
+<img src="Images/finished03.jpg" width="200" />
+<img src="Images/finished04.jpg" width="200" />
+<img src="Images/finished05.jpg" width="200" />
+<img src="Images/finished06.jpg" width="200" />
+
 
 ## Status
 The current to-do list:
@@ -12,6 +18,8 @@ The current to-do list:
 * Integrated pwnagotchi with power controls via gpio.  Sort of a separate project...  
 
 <img src="Images/wiring-20220209.jpg" width="200" />
+<img src="Images/first-boot.jpg" width="100" />
+<img src="Images/side-closed.jpg" width="100" />
 
 ## Keyboard Pivot Geometry
 One corner of each keyboard half moves up the center of the chassis on a straight path.  The other povot point follows some other path to acheive the desired total rotation, and we have some control over how it gets there by curving the path it follows.
@@ -27,7 +35,7 @@ This build has two li-ion pouch cells wired in parallel, each separatly fused fo
 
 There is a switch and a voltage button on the right side of the screen to turn it on and check the battery level:  
 
-<img src="Images/disb_buttons02" width="100" />
+<img src="Images/disp_buttons02" width="100" />
 
 ## USB Wiring
 There is a usb hub inside the lid that'r wired with ground, D+, D-, directly to the usb pins on one of the pi ports.  Posotive power comes directly from the psu.  The ground and data wires are bundled with heat shrink to keep them paralle and close so they have the correct impedance for the usb connection.  I tried with them loose and the connection didn't work.  
