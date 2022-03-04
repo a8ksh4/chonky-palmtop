@@ -19,10 +19,6 @@ The current to-do list:
 * Rework the lower left hinge bracket with integrated wire protection to match the lid.
 * Integrated pwnagotchi with power controls via gpio.  Sort of a separate project...  
 
-<img src="Images/wiring-20220209.jpg" width="200" />
-<img src="Images/first-boot.jpg" width="100" />
-<img src="Images/side-closed.jpg" width="100" />
-
 ## Keyboard Pivot Geometry
 One corner of each keyboard half moves up the center of the chassis on a straight path.  The other povot point follows some other path to acheive the desired total rotation, and we have some control over how it gets there by curving the path it follows.
 
@@ -40,9 +36,9 @@ The retro psu seems to work well supplying power, but does not have a working lo
 
 This build has two li-ion pouch cells wired in parallel, each separatly fused for 10a for short curcuit protection.  There's an XT60 connection on the side in case I want to rig up a fast-charge.  The li-on cells used here aren't the best choice for energy density, but they can fast charge  - limited only by the gauge of the wire I connect tehm with, and if I change them later, there's room in the battery box for a bunch of 18650 cells instead.  
 
-<img src="Images/battery01.jpg" width="400" />
-<img src="Images/battery00.jpg" width="400" />
 <img src="Images/battery02.jpg" width="400" />
+<img src="Images/battery00.jpg" width="400" />
+<img src="Images/battery03.jpg" width="400" />
 
 There is a switch and a voltage button on the right side of the screen to turn it on and check the battery level:  
 
@@ -77,6 +73,9 @@ Hinges and stuff:
 <img src="Images/hinge2.jpg" width="100" />
 <img src="Images/hinge3.jpg" width="100" />
 <img src="Images/battery-box0.jpg" width="100" />
+<img src="Images/wiring-20220209.jpg" width="100" />
+<img src="Images/first-boot.jpg" width="100" />
+<img src="Images/side-closed.jpg" width="100" />
 
 ## Materials List
 * Printed parts - See the "Stl Files" derectory.
