@@ -39,7 +39,9 @@ First draft of the sliders:
 <img src="Images/keyboard11.jpg" width="100" /><img src="Images/keyboard12.jpg" width="400" />
 
 ## Power System
-The retro psu seems to work well supplying power, but does not have a working low voltage cutoff, so even though it'll warn you that battery voltage is low, it's still up to you to turn it off and protect the battery.  Probaby some otehr low voltage protection should be used between the psu and battery.
+The PSU/Charge controller is an Amp Ripper 3k, which seems to work well satisfying the Pi 4 and display without low voltage warnings.  It can be wired so an external switch, and has a signal pin to indicate low, but doesn't seem to actually be able to disconnect your system from the battery if voltage gets too low, so you should include some additional low voltage protection.  It charges at up to 3a via USB-c port:  
+
+<img src="Images/charge_port.jpg" width="400" />
 
 This build has two li-ion pouch cells wired in parallel, each separatly fused for 10a for short curcuit protection.  There's an XT60 connection on the side in case I want to rig up a fast-charge.  The li-on cells used here aren't the best choice for energy density, but they can fast charge  - limited only by the gauge of the wire I connect tehm with, and if I change them later, there's room in the battery box for a bunch of 18650 cells instead.  
 
