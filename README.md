@@ -23,7 +23,8 @@ The current to-do list:
 The keyboard is a Corne Classic with Miryoku Firmware.  It has mouse emulation that works surprisingly well when not using a usb mouse.  
 
 ### Firmware
-Using the Miryoku Firmware found here: https://github.com/manna-harbour/miryoku  
+Using the Miryoku Firmware found here: https://github.com/manna-harbour/miryoku   
+
 <img src="Images/miryoku-kle-cover.png"/>
 
 
